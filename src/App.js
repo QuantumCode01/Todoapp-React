@@ -24,7 +24,7 @@ function App() {
           <h1>Todo App</h1>
          <form className="form-inline d-flex justify-content-between">
             <div className="form-group">
-              <input type="text" value={enteredValue} onChange={(e) => setEnteredValue(e.target.value)} className="form-control" id="exampleInputName2" placeholder="Jane Doe" />
+              <input type="text" value={enteredValue} onChange={(e) => setEnteredValue(e.target.value)} className="form-control" id="exampleInputName2" placeholder="Add Task" />
             </div>
             <button type="button" onClick={addTask} className="addbtn btn btn-primary">Add</button>
         </form>
